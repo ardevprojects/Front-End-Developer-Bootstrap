@@ -1,0 +1,14 @@
+#parallax {
+    position: relative;
+    width: 100%;
+    background-image: url(/img/Pillars-stars.png), url(/img/Pillars-main.png), url(/img/Pillars-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: .3s ease-out;
+}
+
+img.icon {
+    max-width: 200px;
+    filter: drop-shadow(0px 0px 2px #94fffd);
+}
